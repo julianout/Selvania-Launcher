@@ -10,7 +10,7 @@
         "url": "https://github.com/julianout"
     },
     "url": "http://cdn.inoxia.me",
-    "user": "pifpafpouf",
+    "user": "",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
