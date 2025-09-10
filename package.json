@@ -9,7 +9,7 @@
         "email": "contact@pifpafpouf.fr",
         "url": "https://github.com/julianout"
     },
-    "url": "https://cdn.inoxia.me",
+    "url": "http://cdn.inoxia.me",
     "user": "pifpafpouf",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
