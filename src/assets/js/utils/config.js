@@ -24,7 +24,7 @@ class Config {
     }
 
     async getInstanceList() {
-        let InstanceList = `${this.config.url}/files/`
+        let InstanceList = `${url}/files/`
         return new Promise((resolve, reject) => {
             nodeFetch(InstanceList).then(async config => {
                 if (config.status === 200) {
