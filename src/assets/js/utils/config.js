@@ -32,6 +32,7 @@ class Config {
                     // Modifier l'instance hypixel pour Pif Paf Pouf
                     if (instances.hypixel) {
                         instances.hypixel.name = "Pif Paf Pouf";
+                        instances.hypixel.url = "http://cdn.inoxia.me/files?instance=hypixel";
                         instances.hypixel.loadder.minecraft_version = "1.21.8";
                         instances.hypixel.loadder.loadder_type = "neoforge";
                         instances.hypixel.loadder.loadder_version = "21.8.39";
