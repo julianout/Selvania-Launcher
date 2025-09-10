@@ -1,4 +1,4 @@
-# module du helios launcher
+# Selvania Launcher Build Pipeline
 name: Launcher Build
 on:
   push:
