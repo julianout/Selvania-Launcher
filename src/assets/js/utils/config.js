@@ -24,19 +24,14 @@ class Config {
     }
 
     async getInstanceList() {
-        let urlInstance = `${url}/files/files.php?action=list`
-        let response = await nodeFetch(urlInstance).then(res => res.json()).catch(err => err)
-        let instancesList = []
-        
-        if (response && response.files) {
-            let instances = Object.entries(response.files)
-            for (let [name, data] of instances) {
-                let instance = data
-                instance.name = name
-                instancesList.push(instance)
-            }
-        }
-        return instancesList
+        // Return default Pif Paf Pouf instance instead of files
+        return [{
+            name: "Pif Paf Pouf",
+            whitelistActive: false,
+            version: "1.21.8",
+            loader: "neoforge",
+            loader_version: "21.8.39"
+        }]
     }
 
     async getNews() {
