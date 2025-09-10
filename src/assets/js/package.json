@@ -1,0 +1,18 @@
+{
+    "name": "Pif-Paf-Pouf-Launcher",
+    "productname": "Pif Paf Pouf", 
+    "version": "2.1.3",
+    "description": "Launcher Minecraft pour le serveur Pif Paf Pouf",
+    "main": "app.js",
+    "author": {
+        "name": "Pif Paf Pouf Team",
+        "email": "contact@pifpafpouf.fr",
+        "url": "https://github.com/julianout"
+    },
+    "url": "https://cdn.inoxia.me",
+    "user": "pifpafpouf",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/julianout/Selvania-Launcher.git"
+    }
+}
