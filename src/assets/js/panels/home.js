@@ -102,10 +102,18 @@ class Home {
 
     async instancesSelect() {
         try {
+            console.log('instancesSelect: Starting');
             let configClient = await this.db.readData('configClient')
+            console.log('instancesSelect: configClient loaded', configClient);
+            
             let auth = await this.db.readData('accounts', configClient.account_selected)
+            console.log('instancesSelect: auth loaded', auth);
+            
             let instancesList = await config.getInstanceList()
+            console.log('instancesSelect: instancesList loaded', instancesList);
+            
             let instanceSelect = instancesList.find(i => i.name == configClient?.instance_selct) ? configClient?.instance_selct : null
+            console.log('instancesSelect: instanceSelect found', instanceSelect);
 
         let instanceBTN = document.querySelector('.play-instance')
         let instancePopup = document.querySelector('.instance-popup')
