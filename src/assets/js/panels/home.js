@@ -198,7 +198,13 @@ class Home {
         instanceCloseBTN.addEventListener('click', () => instancePopup.style.display = 'none')
         } catch (error) {
             console.error('instancesSelect error:', error);
-            console.error('Error details:', JSON.stringify(error));
+            console.error('Error message:', error.message);
+            console.error('Error stack:', error.stack);
+            console.error('Error code:', error.code);
+            console.error('Full error object:', Object.getOwnPropertyNames(error).reduce((obj, prop) => {
+                obj[prop] = error[prop];
+                return obj;
+            }, {}));
             throw error;
         }
     }
