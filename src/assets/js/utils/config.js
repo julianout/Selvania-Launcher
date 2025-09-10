@@ -24,28 +24,28 @@ class Config {
     }
 
     async getInstanceList() {
-        // Return default Pif Paf Pouf instance with complete structure
-        return [{
-            name: "Pif Paf Pouf",
-            whitelistActive: false,
-            version: "1.21.8",
-            loader: "neoforge",
-            loader_version: "21.8.39",
-            loadder: {
-                minecraft_version: "1.21.8",
-                loadder_type: "neoforge",
-                loadder_version: "21.8.39"
-            },
-            verify: true,
-            url: "http://cdn.inoxia.me",
-            ignored: ["logs", "crash-reports", "screenshots", "saves"],
-            jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
-            game_args: [],
-            status: {
-                ip: "mc301.boxtoplay.com",
-                port: 26327
-            }
-        }]
+        let InstanceList = `${this.config.url}/files/`
+        return new Promise((resolve, reject) => {
+            nodeFetch(InstanceList).then(async config => {
+                if (config.status === 200) {
+                    let instances = await config.json();
+                    // Modifier l'instance hypixel pour Pif Paf Pouf
+                    if (instances.hypixel) {
+                        instances.hypixel.name = "Pif Paf Pouf";
+                        instances.hypixel.loadder.minecraft_version = "1.21.8";
+                        instances.hypixel.loadder.loadder_type = "neoforge";
+                        instances.hypixel.loadder.loadder_version = "21.8.39";
+                        instances.hypixel.status.nameserver = "Pif Paf Pouf Server";
+                        instances.hypixel.status.ip = "mc301.boxtoplay.com";
+                        instances.hypixel.status.port = 26327;
+                    }
+                    return resolve(instances);
+                }
+                else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
+            }).catch(error => {
+                return reject({ error });
+            })
+        })
     }
 
     async getNews() {
