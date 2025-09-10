@@ -24,7 +24,7 @@ class Config {
     }
 
     async getInstanceList() {
-        // Return default Pif Paf Pouf instance instead of files
+        // Return default Pif Paf Pouf instance with complete structure
         return [{
             name: "Pif Paf Pouf",
             whitelistActive: false,
@@ -38,6 +38,9 @@ class Config {
             },
             verify: true,
             url: "http://cdn.inoxia.me",
+            ignored: ["logs", "crash-reports", "screenshots", "saves"],
+            jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
+            game_args: [],
             status: {
                 ip: "mc301.boxtoplay.com",
                 port: 26327
