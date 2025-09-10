@@ -30,7 +30,11 @@ class Config {
             whitelistActive: false,
             version: "1.21.8",
             loader: "neoforge",
-            loader_version: "21.8.39"
+            loader_version: "21.8.39",
+            status: {
+                ip: "mc301.boxtoplay.com",
+                port: 26327
+            }
         }]
     }
 
