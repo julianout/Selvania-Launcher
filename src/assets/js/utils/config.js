@@ -40,7 +40,7 @@ class Config {
                         instances.hypixel.status.ip = "mc301.boxtoplay.com";
                         instances.hypixel.status.port = 26327;
                     }
-                    return resolve(instances);
+                    return resolve(Object.values(instances));
                 }
                 else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
             }).catch(error => {
