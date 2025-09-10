@@ -14,7 +14,9 @@ class Home {
         this.db = new database();
         this.news()
         this.socialLick()
-        this.instancesSelect()
+        this.instancesSelect().catch(error => {
+            console.error('Error calling instancesSelect:', error);
+        })
         document.querySelector('.settings-btn').addEventListener('click', e => changePanel('settings'))
     }
 
