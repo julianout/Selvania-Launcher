@@ -29,16 +29,31 @@ class Config {
             nodeFetch(InstanceList).then(async config => {
                 if (config.status === 200) {
                     let instances = await config.json();
-                    // Modifier l'instance hypixel pour Pif Paf Pouf
+                    
+                    // Supprimer PokeMoonX
+                    delete instances.PokeMoonX;
+                    
+                    // Remplacer hypixel par Pif Paf Pouf
                     if (instances.hypixel) {
-                        instances.hypixel.name = "Pif Paf Pouf";
-                        instances.hypixel.url = "http://cdn.inoxia.me/files?instance=hypixel";
-                        instances.hypixel.loadder.minecraft_version = "1.21.8";
-                        instances.hypixel.loadder.loadder_type = "neoforge";
-                        instances.hypixel.loadder.loadder_version = "21.8.39";
-                        instances.hypixel.status.nameserver = "Pif Paf Pouf Server";
-                        instances.hypixel.status.ip = "mc301.boxtoplay.com";
-                        instances.hypixel.status.port = 26327;
+                        instances.pifpafpouf = {
+                            name: "Pif Paf Pouf",
+                            url: "http://cdn.inoxia.me/files?instance=hypixel",
+                            loadder: {
+                                minecraft_version: "1.21.8",
+                                loadder_type: "neoforge",
+                                loadder_version: "21.8.39"
+                            },
+                            verify: true,
+                            ignored: ["logs", "crash-reports", "screenshots", "saves"],
+                            whitelist: [],
+                            whitelistActive: false,
+                            status: {
+                                nameserver: "Pif Paf Pouf Server",
+                                ip: "mc301.boxtoplay.com",
+                                port: 26327
+                            }
+                        };
+                        delete instances.hypixel;
                     }
                     return resolve(Object.values(instances));
                 }
