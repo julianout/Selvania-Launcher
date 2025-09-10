@@ -66,7 +66,7 @@ class Index {
                 appId: 'fr.selvania.launcher',
                 productName: productname,
                 copyright: 'Copyright © 2020-2024 Luuxis',
-                artifactName: "${productName}-${os}-${arch}.${ext}",
+                artifactName: "${productName}-Setup.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
