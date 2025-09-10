@@ -101,10 +101,11 @@ class Home {
     }
 
     async instancesSelect() {
-        let configClient = await this.db.readData('configClient')
-        let auth = await this.db.readData('accounts', configClient.account_selected)
-        let instancesList = await config.getInstanceList()
-        let instanceSelect = instancesList.find(i => i.name == configClient?.instance_selct) ? configClient?.instance_selct : null
+        try {
+            let configClient = await this.db.readData('configClient')
+            let auth = await this.db.readData('accounts', configClient.account_selected)
+            let instancesList = await config.getInstanceList()
+            let instanceSelect = instancesList.find(i => i.name == configClient?.instance_selct) ? configClient?.instance_selct : null
 
         let instanceBTN = document.querySelector('.play-instance')
         let instancePopup = document.querySelector('.instance-popup')
@@ -195,6 +196,11 @@ class Home {
         })
 
         instanceCloseBTN.addEventListener('click', () => instancePopup.style.display = 'none')
+        } catch (error) {
+            console.error('instancesSelect error:', error);
+            console.error('Error details:', JSON.stringify(error));
+            throw error;
+        }
     }
 
     async startGame() {
