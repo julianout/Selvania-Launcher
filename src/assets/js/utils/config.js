@@ -45,6 +45,8 @@ class Config {
                             },
                             verify: true,
                             ignored: ["logs", "crash-reports", "screenshots", "saves"],
+                            jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
+                            game_args: ["--server", "mc301.boxtoplay.com", "--port", "26327"],
                             whitelist: [],
                             whitelistActive: false,
                             status: {
