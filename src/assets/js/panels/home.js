@@ -248,7 +248,12 @@ class Home {
             }
         }
 
-        launch.Launch(opt);
+        try {
+            launch.Launch(opt);
+        } catch (error) {
+            console.error('Launch error:', error);
+            throw error;
+        }
 
         playInstanceBTN.style.display = "none"
         infoStartingBOX.style.display = "block"
@@ -315,11 +320,15 @@ class Home {
         });
 
         launch.on('error', err => {
+            console.error('Launch error object:', err);
             let popupError = new popup()
+            
+            let errorMessage = err.error || err.message || JSON.stringify(err) || 'Erreur inconnue';
+            console.error('Error message:', errorMessage);
 
             popupError.openPopup({
                 title: 'Erreur',
-                content: err.error,
+                content: errorMessage,
                 color: 'red',
                 options: true
             })
