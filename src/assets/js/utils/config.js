@@ -48,7 +48,7 @@ class Config {
                             whitelist: [],
                             whitelistActive: false,
                             status: {
-                                nameserver: "Pif Paf Pouf Server",
+                                nameServer: "Pif Paf Pouf Server",
                                 ip: "mc301.boxtoplay.com",
                                 port: 26327
                             }
