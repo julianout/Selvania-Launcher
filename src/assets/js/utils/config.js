@@ -31,6 +31,13 @@ class Config {
             version: "1.21.8",
             loader: "neoforge",
             loader_version: "21.8.39",
+            loadder: {
+                minecraft_version: "1.21.8",
+                loadder_type: "neoforge",
+                loadder_version: "21.8.39"
+            },
+            verify: true,
+            url: "http://cdn.inoxia.me",
             status: {
                 ip: "mc301.boxtoplay.com",
                 port: 26327
