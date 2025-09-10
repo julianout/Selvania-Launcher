@@ -44,7 +44,7 @@ class Config {
                                 loadder_version: "21.8.39"
                             },
                             verify: true,
-                            ignored: ["logs", "crash-reports", "screenshots", "saves"],
+                            ignored: ["logs", "crash-reports", "screenshots", "saves", "options.txt", "optionsof.txt", "config", "resourcepacks", "shaderpacks"],
                             jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
                             game_args: ["--server", "mc301.boxtoplay.com", "--port", "26327"],
                             whitelist: [],
