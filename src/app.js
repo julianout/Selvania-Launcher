@@ -26,8 +26,8 @@ if (dev) {
 
 if (!app.requestSingleInstanceLock()) app.quit();
 else app.whenReady().then(() => {
-    if (dev) return MainWindow.createWindow()
-    UpdateWindow.createWindow()
+    // Temporaire : skip update pour test
+    MainWindow.createWindow()
 });
 
 ipcMain.on('main-window-open', () => MainWindow.createWindow())
@@ -73,6 +73,11 @@ ipcMain.handle('is-dark-theme', (_, theme) => {
 app.on('window-all-closed', () => app.quit());
 
 autoUpdater.autoDownload = false;
+autoUpdater.setFeedURL({
+    provider: 'github',
+    owner: 'julianout',
+    repo: 'Selvania-Launcher'
+});
 
 ipcMain.handle('update-app', async () => {
     return await new Promise(async (resolve, reject) => {
