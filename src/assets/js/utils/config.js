@@ -24,15 +24,17 @@ class Config {
     }
 
     async getInstanceList() {
-        let urlInstance = `${url}/files`
-        let instances = await nodeFetch(urlInstance).then(res => res.json()).catch(err => err)
+        let urlInstance = `${url}/files/files.php?action=list`
+        let response = await nodeFetch(urlInstance).then(res => res.json()).catch(err => err)
         let instancesList = []
-        instances = Object.entries(instances)
-
-        for (let [name, data] of instances) {
-            let instance = data
-            instance.name = name
-            instancesList.push(instance)
+        
+        if (response && response.files) {
+            let instances = Object.entries(response.files)
+            for (let [name, data] of instances) {
+                let instance = data
+                instance.name = name
+                instancesList.push(instance)
+            }
         }
         return instancesList
     }
