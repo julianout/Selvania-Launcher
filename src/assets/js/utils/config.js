@@ -24,46 +24,27 @@ class Config {
     }
 
     async getInstanceList() {
-        let InstanceList = `${url}/files/`
-        return new Promise((resolve, reject) => {
-            nodeFetch(InstanceList).then(async config => {
-                if (config.status === 200) {
-                    let instances = await config.json();
-                    
-                    // Supprimer PokeMoonX
-                    delete instances.PokeMoonX;
-                    
-                    // Remplacer hypixel par Pif Paf Pouf
-                    if (instances.hypixel) {
-                        instances.pifpafpouf = {
-                            name: "Pif Paf Pouf",
-                            url: "http://cdn.inoxia.me/files?instance=hypixel",
-                            loadder: {
-                                minecraft_version: "1.21.8",
-                                loadder_type: "neoforge",
-                                loadder_version: "21.8.39"
-                            },
-                            verify: true,
-                            ignored: ["logs", "crash-reports", "screenshots", "saves", "options.txt", "optionsof.txt", "config", "resourcepacks", "shaderpacks"],
-                            jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
-                            game_args: ["--server", "mc301.boxtoplay.com", "--port", "26327"],
-                            whitelist: [],
-                            whitelistActive: false,
-                            status: {
-                                nameServer: "Pif Paf Pouf Server",
-                                ip: "mc301.boxtoplay.com",
-                                port: 26327
-                            }
-                        };
-                        delete instances.hypixel;
-                    }
-                    return resolve(Object.values(instances));
-                }
-                else return reject({ error: { code: config.statusText, message: 'server not accessible' } });
-            }).catch(error => {
-                return reject({ error });
-            })
-        })
+        // Return hardcoded instance to avoid HTTP fetch issues
+        return [{
+            name: "Pif Paf Pouf",
+            url: "http://cdn.inoxia.me/files?instance=hypixel",
+            loadder: {
+                minecraft_version: "1.21.8",
+                loadder_type: "neoforge",
+                loadder_version: "21.8.39"
+            },
+            verify: true,
+            ignored: ["logs", "crash-reports", "screenshots", "saves", "options.txt", "optionsof.txt", "config", "resourcepacks", "shaderpacks"],
+            jvm_args: ["-Xms2G", "-Xmx4G", "-XX:+UseG1GC"],
+            game_args: ["--server", "mc301.boxtoplay.com", "--port", "26327"],
+            whitelist: [],
+            whitelistActive: false,
+            status: {
+                nameServer: "Pif Paf Pouf Server",
+                ip: "mc301.boxtoplay.com",
+                port: 26327
+            }
+        }]
     }
 
     async getNews() {
