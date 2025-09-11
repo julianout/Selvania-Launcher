@@ -26,8 +26,7 @@ if (dev) {
 
 if (!app.requestSingleInstanceLock()) app.quit();
 else app.whenReady().then(() => {
-    // Temporaire : skip update pour test
-    MainWindow.createWindow()
+    UpdateWindow.createWindow()
 });
 
 ipcMain.on('main-window-open', () => MainWindow.createWindow())
