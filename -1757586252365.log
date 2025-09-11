@@ -1,0 +1,278 @@
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Launcher...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Frame...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Config Client...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Login Panel...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Microsoft login...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Home Panel...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: instancesSelect: Starting
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing Settings Panel...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: instancesSelect: configClient loaded
+logger.js:19 [Pif-Paf-Pouf-Launcher]: instancesSelect: auth loaded
+logger.js:19 [Pif-Paf-Pouf-Launcher]: instancesSelect: instancesList loaded
+logger.js:19 [Pif-Paf-Pouf-Launcher]: instancesSelect: instanceSelect found
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Initializing instance Pif Paf Pouf...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Account Type: Xbox | Username: Julien_1800
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Extracting neoforge-21.8.39-universal-clientdata.lzma...
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 0/56 (0%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=0, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 1/56 (2%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=1, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 2/56 (4%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=2, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 3/56 (5%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=3, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 4/56 (7%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=4, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 5/56 (9%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=5, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 6/56 (11%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=6, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 7/56 (13%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=7, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 8/56 (14%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=8, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 9/56 (16%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=9, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 10/56 (18%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=10, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 11/56 (20%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=11, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 12/56 (21%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=12, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 13/56 (23%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=13, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 14/56 (25%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=14, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 15/56 (27%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=15, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 16/56 (29%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=16, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 17/56 (30%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=17, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 18/56 (32%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=18, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 19/56 (34%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=19, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 20/56 (36%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=20, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 21/56 (38%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=21, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 22/56 (39%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=22, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 23/56 (41%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=23, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 24/56 (43%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=24, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 25/56 (45%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=25, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 26/56 (46%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=26, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 27/56 (48%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=27, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 28/56 (50%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=28, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 29/56 (52%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=29, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 30/56 (54%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=30, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 31/56 (55%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=31, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 32/56 (57%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=32, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 33/56 (59%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=33, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 34/56 (61%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=34, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 35/56 (63%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=35, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 36/56 (64%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=36, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 37/56 (66%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=37, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 38/56 (68%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=38, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 39/56 (70%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=39, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 40/56 (71%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=40, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 41/56 (73%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=41, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 42/56 (75%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=42, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 43/56 (77%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=43, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 44/56 (79%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=44, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 45/56 (80%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=45, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 46/56 (82%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=46, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 47/56 (84%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=47, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 48/56 (86%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=48, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 49/56 (88%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=49, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 50/56 (89%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=50, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 51/56 (91%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=51, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 52/56 (93%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=52, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 53/56 (95%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=53, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 54/56 (96%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=54, max=56
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check event: 55/56 (98%)
+logger.js:19 [Pif-Paf-Pouf-Launcher]: Check progress bar updated: value=55, max=56
+logger.js:19 [Minecraft]: Launching with arguments -Xms2048M -Xmx4096M -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dfml.ignoreInvalidMinecraftCertificates=true -Djna.tmpdir=versions/1.21.8/natives -Dorg.lwjgl.system.SharedLibraryExtractPath=versions/1.21.8/natives -Dio.netty.native.workdir=versions/1.21.8/natives -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms2G -Xmx4G -XX:+UseG1GC -cp C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/fancymodloader/earlydisplay/9.0.18/earlydisplay-9.0.18.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/fancymodloader/loader/9.0.18/loader-9.0.18.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/bus/8.0.5/bus-8.0.5.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/fancymodloader/bootstraplauncher/9.0.18/bootstraplauncher-9.0.18.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/fancymodloader/securejarhandler/9.0.18/securejarhandler-9.0.18.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/com/mojang/logging/1.5.10/logging-1.5.10.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar;C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\loader\neoforge/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar;C:\Users\Julien\Pictures\Selv
+logger.js:19 [Minecraft]: [12:24:02] [main/INFO]: ModLauncher running: args [--username, Julien_1800, --version, neoforge-21.8.39, --gameDir, C:/Users/Julien/Pictures/Selvania-Launcher/data/.PifPafPouf/instances/Pif Paf Pouf, --assetsDir, C:/Users/Julien/Pictures/Selvania-Launcher/data/.PifPafPouf/assets, --assetIndex, 26, --uuid, 8b3c5729ecfb459da675812ee4edb102, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, bd8f8b76845905a54be97ff4e57c8301, --xuid, 2535441757644111, --userType, msa, --versionType, release, --width, 854, --height, 480, --server, mc301.boxtoplay.com, --port, 26327, --fml.neoForgeVersion, 21.8.39, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoFormVersion, 20250717.133445, --launchTarget, neoforgeclient]
+
+logger.js:19 [Minecraft]: [12:24:02] [main/INFO]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+
+logger.js:19 [Minecraft]: [12:24:02] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.7 by Microsoft; OS Windows 10 arch amd64 version 10.0
+
+logger.js:19 [Minecraft]: SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+
+logger.js:19 [Minecraft]: [12:24:02] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+
+logger.js:19 [Minecraft]: [12:24:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Julien/Pictures/Selvania-Launcher/data/.PifPafPouf/loader/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23131!/ Service=ModLauncher Env=CLIENT
+
+logger.js:19 [Minecraft]: [12:24:04] [main/INFO]: Compatibility level set to JAVA_17
+
+logger.js:19 [Minecraft]: [12:24:04] [main/INFO]: Compatibility level set to JAVA_21
+
+logger.js:19 [Minecraft]: [12:24:04] [main/INFO]: Launching target 'neoforgeclient' with arguments [--version, neoforge-21.8.39, --gameDir, C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\instances\Pif Paf Pouf, --assetsDir, C:\Users\Julien\Pictures\Selvania-Launcher\data\.PifPafPouf\assets, --uuid, 8b3c5729ecfb459da675812ee4edb102, --username, Julien_1800, --assetIndex, 26, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, bd8f8b76845905a54be97ff4e57c8301, --xuid, 2535441757644111, --userType, msa, --versionType, release, --width, 854, --height, 480, --server, mc301.boxtoplay.com, --port, 26327]
+
+logger.js:19 [Minecraft]: 2025-09-11T10:24:04.677016200Z main WARN Advanced terminal features are not available in this environment
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'sodium-extra.refmap.json' for sodium-extra.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'fastasyncworldsave.refmap.json' for fastasyncworldsave.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'jade.refmap.json' for jade.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'refurbished_furniture.refmap.json' for refurbished_furniture.common.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'justzoom.refmap.json' for justzoom.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'justzoom.refmap.json' for justzoom.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:04] [main/WARN] [mixin/]: Reference map 'framework.refmap.json' for framework.common.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:05] [main/INFO] [de.to.pa.mi.v1.MixinPlugin/]: Packet Fixer neoforge 1.20.5-1.21.X has been applied successfully.
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Reference map 'no_attack_cooldown_damage_delay.refmap.json' for no_attack_cooldown_damage_delay.mixins.json could not be read. If this is a development environment you can ignore this message
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
+
+logger.js:19 [Minecraft]: [12:24:05] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+
+logger.js:19 [Minecraft]: [12:24:06] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+
+ [Minecraft]: [LibGui] Initializing Client...
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.39, for MC 1.21.8
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: [KONKRETE] Loading v1.9.12 in client-side mode on NEOFORGE!
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: ---------------------------
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]:  
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Open Imaging Copyright � 2014 Dhyan Blum.
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]:  
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: JsonPath Copyright � 2017 Jayway.
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: JsonPath is licensed under Apache-2.0.
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]:  
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Json-smart Copyright � netplex.
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Json-smart is licensed under Apache-2.0.
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]:  
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Exp4j Copyright � Frank Asseg.
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: ---------------------------
+[12:24:13] [modloading-worker-0/INFO] [de.ke.ko.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [tr.en.EMF/]: Loading Entity Model Features, we get there when we get there.
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager...
+
+ [Minecraft]: [12:24:13] [modloading-worker-0/INFO] [me.je.li.lo.PluginCaller/]: Sending ConfigManager took 4.118 milliseconds
+
+ [Minecraft]: [12:24:14] [modloading-worker-0/INFO] [co.cu.Cupboard/]: Loaded config for: cupboard.json
+
+ [Minecraft]: [12:24:14] [modloading-worker-0/INFO] [Towns and Towers/]: Loading T&T
+
+ [Minecraft]: [12:24:14] [modloading-worker-0/ERROR] [Cristel Lib/]: Mod with id explorify only has an old path for subPath data/cristellib/structure_config. New Path for Cristel Lib >=2.0.1 is missing! Maybe contact the mod author to let them know.
+
