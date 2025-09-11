@@ -43,5 +43,35 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/julianout/Selvania-Launcher.git"
+    },
+    "homepage": "https://github.com/julianout/Selvania-Launcher",
+    "build": {
+        "appId": "com.pifpafpouf.launcher",
+        "productName": "Pif Paf Pouf Launcher",
+        "directories": {
+            "output": "dist"
+        },
+        "files": [
+            "src/**/*",
+            "node_modules/**/*",
+            "package.json"
+        ],
+        "publish": [
+            {
+                "provider": "github",
+                "owner": "julianout",
+                "repo": "Selvania-Launcher"
+            }
+        ],
+        "win": {
+            "target": "nsis",
+            "icon": "src/assets/images/icon.png"
+        },
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true,
+            "createDesktopShortcut": true,
+            "createStartMenuShortcut": true
+        }
     }
 }
