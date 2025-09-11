@@ -215,11 +215,9 @@
 
 .news-header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1.5rem 2rem;
     align-items: center;
-    text-align: center;
 }
 
 .header-text .title {
@@ -227,9 +225,8 @@
     font-weight: 700;
     color: #ffffff;
     text-shadow: 0 0 10px rgba(120, 219, 255, 0.6);
-    text-align: center;
+    text-align: left;
     margin: 0;
-    width: 100%;
 }
 
 .news-header .date {
@@ -238,7 +235,6 @@
     align-items: center;
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
-    margin-top: 0.5rem;
 }
 
 /* ✨ Gaming News Content ✨ */
@@ -247,7 +243,6 @@
     padding-bottom: 2rem;
     font-size: 1.1rem;
     line-height: 1.6;
-    text-align: center;
 }
 
 .news-content .bbWrapper p {
@@ -255,12 +250,11 @@
     margin: 0 0 1rem 0;
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 
 .news-content .bbWrapper .news-author {
     margin-top: 1.5rem;
-    text-align: center;
+    text-align: right;
     font-size: 0.9rem;
     color: rgba(255, 205, 60, 0.8);
     font-weight: 600;
