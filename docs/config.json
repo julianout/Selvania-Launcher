@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "id": "PifPafPouf-1218",
+      "name": "Pif Paf Pouf Server",
+      "address": "mc301.boxtoplay.com:26327",
+      "mainServer": true,
+      "autoconnect": true
+    }
+  ]
+}
