@@ -288,17 +288,21 @@ class Home {
         });
 
         launch.on('progress', (progress, size) => {
+            console.log(`Progress event: ${progress}/${size} (${((progress / size) * 100).toFixed(0)}%)`);
             infoStarting.innerHTML = `Téléchargement ${((progress / size) * 100).toFixed(0)}%`
             ipcRenderer.send('main-window-progress', { progress, size })
             progressBar.value = progress;
             progressBar.max = size;
+            console.log(`Progress bar updated: value=${progressBar.value}, max=${progressBar.max}`);
         });
 
         launch.on('check', (progress, size) => {
+            console.log(`Check event: ${progress}/${size} (${((progress / size) * 100).toFixed(0)}%)`);
             infoStarting.innerHTML = `Vérification ${((progress / size) * 100).toFixed(0)}%`
             ipcRenderer.send('main-window-progress', { progress, size })
             progressBar.value = progress;
             progressBar.max = size;
+            console.log(`Check progress bar updated: value=${progressBar.value}, max=${progressBar.max}`);
         });
 
         launch.on('estimated', (time) => {
