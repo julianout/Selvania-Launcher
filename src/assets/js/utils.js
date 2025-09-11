@@ -14,6 +14,7 @@ import logger from './utils/logger.js';
 import popup from './utils/popup.js';
 import { skin2D } from './utils/skin.js';
 import slider from './utils/slider.js';
+import discord from './utils/discord.js';
 
 async function setBackground(theme) {
     if (typeof theme == 'undefined') {
@@ -105,11 +106,15 @@ async function setStatus(opt) {
         document.querySelector('.status-player-count').classList.remove('red')
         statusServerElement.innerHTML = `En ligne - ${statusServer.ms} ms`
         playersOnline.innerHTML = statusServer.playersConnect
+        // Update Discord Rich Presence with player count
+        discord.setGameActivity(statusServer.playersConnect)
     } else {
         statusServerElement.classList.add('red')
         statusServerElement.innerHTML = `Ferme - 0 ms`
         document.querySelector('.status-player-count').classList.add('red')
         playersOnline.innerHTML = '0'
+        // Update Discord Rich Presence - server offline
+        discord.setGameActivity(0)
     }
 }
 
@@ -127,5 +132,6 @@ export {
     accountSelect as accountSelect,
     slider as Slider,
     pkg as pkg,
-    setStatus as setStatus
+    setStatus as setStatus,
+    discord as discord
 }
