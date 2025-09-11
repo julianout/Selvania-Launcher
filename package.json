@@ -14,7 +14,7 @@
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
-        "build": "electron-builder --win --publish=always",
+        "build": "electron-builder --win",
         "deploy": "./deploy.sh",
         "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
     },
@@ -55,13 +55,6 @@
             "src/**/*",
             "node_modules/**/*",
             "package.json"
-        ],
-        "publish": [
-            {
-                "provider": "github",
-                "owner": "julianout",
-                "repo": "Selvania-Launcher"
-            }
         ],
         "win": {
             "target": "nsis",
