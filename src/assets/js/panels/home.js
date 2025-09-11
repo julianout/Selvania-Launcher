@@ -230,6 +230,9 @@ class Home {
         let infoStartingBOX = document.querySelector('.info-starting-game')
         let infoStarting = document.querySelector(".info-starting-game-text")
         let progressBar = document.querySelector('.progress-bar')
+        
+        console.log('Info starting element:', infoStarting);
+        console.log('Progress bar element:', progressBar);
 
         let opt = {
             url: options.url,
@@ -298,7 +301,10 @@ class Home {
 
         launch.on('check', (progress, size) => {
             console.log(`Check event: ${progress}/${size} (${((progress / size) * 100).toFixed(0)}%)`);
-            infoStarting.innerHTML = `Vérification ${((progress / size) * 100).toFixed(0)}%`
+            const newText = `Vérification ${((progress / size) * 100).toFixed(0)}%`;
+            console.log(`Setting infoStarting text to: ${newText}`);
+            infoStarting.innerHTML = newText;
+            console.log(`Current infoStarting text after update: ${infoStarting.innerHTML}`);
             ipcRenderer.send('main-window-progress', { progress, size })
             progressBar.value = progress;
             progressBar.max = size;
