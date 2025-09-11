@@ -169,6 +169,11 @@ class Home {
                 let instance = await config.getInstanceList()
                 let options = instance.find(i => i.name == configClient.instance_selct)
                 await setStatus(options.status)
+                
+                // Timer pour rafraîchir le statut et Rich Presence toutes les 30 secondes
+                setInterval(async () => {
+                    await setStatus(options.status)
+                }, 30000)
             }
         })
 
