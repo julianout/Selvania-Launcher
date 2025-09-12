@@ -21,7 +21,9 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-optional
+        env:
+          npm_config_build_from_source: true
         
       - name: Build application
         run: npm run build

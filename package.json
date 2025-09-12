@@ -60,6 +60,15 @@
             "target": "nsis",
             "icon": "src/assets/images/icon.ico"
         },
+        "mac": {
+            "category": "public.app-category.games"
+        },
+        "electronDownload": {
+            "cache": ".electron-cache"
+        },
+        "rebuild": {
+            "onlyModules": ["discord-rpc"]
+        },
         "nsis": {
             "oneClick": false,
             "allowToChangeInstallationDirectory": true,
