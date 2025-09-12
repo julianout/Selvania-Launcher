@@ -1,7 +1,7 @@
 {
     "name": "Pif.Paf.Pouf.Launcher",
     "productname": "Pif Paf Pouf",
-    "version": "2.2.5",
+    "version": "2.2.6",
     "description": "Launcher Minecraft pour le serveur Pif Paf Pouf",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@pifpafpouf.fr",
         "url": "https://github.com/julianout"
     },
-    "url": "https://github.com/julianout/Selvania-Launcher",
+    "url": "http://cdn.inoxia.me",
     "user": "",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
