@@ -1,7 +1,7 @@
 {
     "name": "Pif-Paf-Pouf-Launcher",
     "productname": "Pif Paf Pouf",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "Launcher Minecraft pour le serveur Pif Paf Pouf",
     "main": "src/app.js",
     "author": {
